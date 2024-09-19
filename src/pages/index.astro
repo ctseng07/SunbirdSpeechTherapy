@@ -5,6 +5,7 @@ import Image from "astro/components/Image.astro";
 import { hero, vector, rana } from "../assets";
 import Button from "../components/Button.astro";
 import { philosophy } from "../assets";
+import Slider from "../components/Slider.astro";
 ---
 
 <Layout title="Sunbird Speech Therapy">
@@ -176,6 +177,12 @@ import { philosophy } from "../assets";
         <h5 class="text-white pb-4">MA, CCC-SLP, LSLS Cert. AVT</h5>
         <Image src={rana} alt="rana_img" class="w-full" />
       </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="">
+      <Slider />
     </div>
   </section>
 </Layout>
